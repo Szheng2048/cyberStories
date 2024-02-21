@@ -10,8 +10,11 @@ body{
 }
 header{
     background-color: #f60;
-    color: white;
+    color: navy;
     padding: 10px 20px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 900;
     text-align: center;
 }
 #stories{
@@ -28,6 +31,13 @@ header{
 #navigation{
     padding: 10px;
     margin-left: 20px;
+}
+
+li{
+    border:6px whitesmoke inset;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: rgb(185, 179, 179);
 }
 
 .invisible{
