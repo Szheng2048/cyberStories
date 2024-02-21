@@ -5,7 +5,7 @@
 }
 body{
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color:burlywood;
     margin: 0;
 }
 header{
@@ -31,7 +31,8 @@ header{
 }
 
 .invisible{
-    display: none;
+    position: absolute;
+    left: -999px
 }
 
 @media (max-width: 600px){

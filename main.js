@@ -47,22 +47,12 @@ function renderList(){
             })
         })
     }
-// for(let item of navigationButtons){
-//     item.addEventListener("click",(event)=>{
-//         if(event.target.checked){
-//             choice = event.target.value
-//         }
-//         makeInvisible(choice,listItems)
-//     })
-// }
     
 function makeInvisible(num,arr){
     num = parseInt(num)
     for(let item of arr){
         item.classList.remove("invisible")
     }
-    console.log(arr)
-    console.log(typeof num)
     if(num === 1){
         for(let i = 24;i<arr.length;i++){
             arr[i].classList.add("invisible")
