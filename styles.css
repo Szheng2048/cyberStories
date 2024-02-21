@@ -25,6 +25,15 @@ header{
     margin-bottom: 10px;
 }
 
+#navigation{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.invisible{
+    display: none;
+}
+
 @media (max-width: 600px){
     /*Mobile responsive adjusments*/
 }
