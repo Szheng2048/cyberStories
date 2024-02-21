@@ -32,7 +32,9 @@ header{
     padding: 10px;
     margin-left: 20px;
 }
-
+li:hover{
+    background-color: antiquewhite;
+}
 li{
     border:6px whitesmoke inset;
     margin-bottom: 5px;
